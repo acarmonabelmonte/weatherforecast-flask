@@ -43,6 +43,6 @@ usage: weather.py [-h] [--city CITY]
 optional arguments:
   -h, --help   show this help message and exit
   --city CITY  Ciudad a obtener el tiempo. Por favor, seleccione entre las
-               siguientes opciones:Madrid, Barcelona, Valencia, Sevilla,
+               siguientes opciones: Madrid, Barcelona, Valencia, Sevilla,
                Palma, Murcia.
 ```

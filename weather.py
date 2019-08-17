@@ -1,6 +1,5 @@
 import requests
 import argparse
-import sys
 
 parser = argparse.ArgumentParser()
 
@@ -10,11 +9,12 @@ cities = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Palma', 'Murcia']
 # Inputs para el script
 parser.add_argument('--city', help='Ciudad a obtener el tiempo. Por favor, seleccione entre las siguientes opciones:'
 'Madrid, Barcelona, Valencia, Sevilla, Palma, Murcia.')
+
 args = parser.parse_args()
 
 # Realizamos la petición GET si la ciudad se encuentra entre las opciones de ejemplo
 city = args.city
-if city in cities:
+if city.capitalize() in cities:
     # API-endpoint
     api_endpoint = "http://127.0.0.1:5000/weather-forecast/"
 

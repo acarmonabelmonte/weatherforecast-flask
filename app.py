@@ -8,7 +8,7 @@ def getWeatherInfo(city):
     # api-endpoint 
     api_endpoint = "http://api.openweathermap.org/data/2.5/weather"
 
-    # key para conectar con la API de Openweathermap
+    # apikey de prueba para conectar con la API de Openweathermap
     apikey = "953886b865382df790a3cda9564a301e"
 
     # url para obtener la información sobre una ciudad concreta

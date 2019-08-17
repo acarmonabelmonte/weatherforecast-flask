@@ -4,8 +4,11 @@ El servidor se conecta a la siguiente api externa para obtener la información c
 Weather API from OpenWeather: [https://openweathermap.org/api](https://openweathermap.org/api)
 
 ### Prerrequisitos
-
- - Instalar Python en su máquina:
+ 
+ - Consola Bash de Linux (disponible al instalar git en tu máquina):
+   [https://git-scm.com/downloads/](https://git-scm.com/downloads/)
+   
+ - Python:
    [https://www.python.org/downloads/](https://www.python.org/downloads/)
    
  - Posteriormente instalar las siguientes librerías o paquetes a través de la consola:
@@ -17,9 +20,9 @@ $ pip install argparse
 ### Instalación y ejecución
 Descargue una copia de la aplicación desde GitHub y realice los siguientes pasos:
 
-Ejecute el siguiente comando desde la carpeta raíz del proyecto para iniciar el servidor:
+Ejecute los siguientes comandos desde la carpeta raíz del proyecto para iniciar el servidor:
 ```
-$ export FLASK_APP=hello.py
+$ export FLASK_APP=app.py
 $ flask run
  * Running on http://127.0.0.1:5000/
 ```

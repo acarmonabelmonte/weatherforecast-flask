@@ -37,6 +37,7 @@ Weather forecast for tomorrow in Madrid Temperature: 36.0 ºC
 
 Se han limitado las ciudades para realizar las pruebas, para obtener información al respecto ejecute el comando `python weather.py -h` y obtendrá dicha información:
 ```
+$ python weather.py -h
 usage: weather.py [-h] [--city CITY]
 
 optional arguments:
@@ -44,3 +45,4 @@ optional arguments:
   --city CITY  Ciudad a obtener el tiempo. Por favor, seleccione entre las
                siguientes opciones:Madrid, Barcelona, Valencia, Sevilla,
                Palma, Murcia.
+```

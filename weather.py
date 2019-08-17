@@ -7,8 +7,8 @@ parser = argparse.ArgumentParser()
 cities = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Palma', 'Murcia']
 
 # Inputs para el script
-parser.add_argument('--city', help='Ciudad a obtener el tiempo. Por favor, seleccione entre las siguientes opciones:'
-'Madrid, Barcelona, Valencia, Sevilla, Palma, Murcia.')
+parser.add_argument('--city', help='Ciudad a obtener el tiempo. Por favor, seleccione entre las siguientes opciones: \
+Madrid, Barcelona, Valencia, Sevilla, Palma, Murcia.')
 
 args = parser.parse_args()
 

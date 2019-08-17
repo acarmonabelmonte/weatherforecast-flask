@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/weather-forecast/<city>')
-def getInfo(city):
+def getWeatherInfo(city):
     # api-endpoint 
     api_endpoint = "http://api.openweathermap.org/data/2.5/weather"
 

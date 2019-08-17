@@ -64,4 +64,4 @@ Seleccionar una ciudad no disponible entre las de prueba y obtener información 
 
 Observar JSON recibido desde la ruta en el navegador:
 
-![json info](https://lh3.googleusercontent.com/VPGaZi9CLicGolbjKGZ5pJUMNr4JAyEPKlTJSJH4VT1D_X4eCLEpX8uXs9qxja1V7lLeJTDLbGHl)
+![json info](https://lh3.googleusercontent.com/8wKhtOWpJiiMhH6dUqFd4YvXbeIPwhnveT621VSGbSBWjTU_KZ2h40vGKt7RG-61KNbGT6PY9_8Y)

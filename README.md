@@ -49,3 +49,19 @@ optional arguments:
                siguientes opciones: Madrid, Barcelona, Valencia, Sevilla,
                Palma, Murcia.
 ```
+### Pruebas en local:
+Iniciar server:
+
+![run server](https://lh3.googleusercontent.com/_DXMa8qU19SOCVN9WNx5rNyTWDFI53UDKR0481n5RQDCKwDPzEgP64Zf997-N9_rcBitZoEo2dUS)
+
+Ejecución del script `weather.py`:
+
+![run script](https://lh3.googleusercontent.com/Z9XhYi43eqaJrnonTeqp9M2m_XFD48K6Y3ALsE5Ah3kqDusJy-ux4tWFYiLkRhWq9x_iUWCRTy1q)
+
+Seleccionar una ciudad no disponible entre las de prueba y obtener información del script:
+
+![info script](https://lh3.googleusercontent.com/4j6cqyu7475a9-EI3x7OtS6a767Jnp53fUF_67gmyfAQP2WJmFcB2-ztBWU37fGqbJ89UJQMwFGv)
+
+Observar JSON recibido desde la ruta en el navegador:
+
+![json info](https://lh3.googleusercontent.com/VPGaZi9CLicGolbjKGZ5pJUMNr4JAyEPKlTJSJH4VT1D_X4eCLEpX8uXs9qxja1V7lLeJTDLbGHl)

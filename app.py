@@ -1,3 +1,4 @@
+import config
 import requests
 from flask import Flask
 
@@ -8,11 +9,8 @@ def getWeatherInfo(city):
     # api-endpoint 
     api_endpoint = "http://api.openweathermap.org/data/2.5/weather"
 
-    # apikey de prueba para conectar con la API de Openweathermap
-    apikey = "953886b865382df790a3cda9564a301e"
-
     # url para obtener la información sobre una ciudad concreta
-    url = api_endpoint + "?q=" + city + "&appid=" + apikey
+    url = api_endpoint + "?q=" + city + "&appid=" + config.api_key
     
     # realizar solicitud GET sobre la url que le pasemos
     r = requests.get(url)

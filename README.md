@@ -47,7 +47,7 @@ optional arguments:
   -h, --help   show this help message and exit
   --city CITY  Ciudad a obtener el tiempo. Por favor, seleccione entre las
                siguientes opciones: Madrid, Barcelona, Valencia, Sevilla,
-               Palma, Murcia.
+               Murcia.
 ```
 ### Pruebas en local:
 Iniciar server:

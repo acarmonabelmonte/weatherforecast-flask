@@ -22,7 +22,7 @@ Descargue una copia de la aplicación desde GitHub y realice los siguientes paso
 
 Ejecute los siguientes comandos desde la carpeta raíz del proyecto para iniciar el servidor:
 ```
-$ export FLASK_APP=app.py
+$ export FLASK_APP=service.py
 $ flask run
  * Running on http://127.0.0.1:5000/
 ```

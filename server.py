@@ -18,4 +18,4 @@ def weather(city):
     # devolver resultados en formato JSON
     return r.json()
 
-app.run(host=config.host, port=config.port, debug=True)
+app.run(host=config.host, port=config.port, debug=config.debug)

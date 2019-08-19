@@ -23,11 +23,11 @@ Descargue una copia de la aplicación desde GitHub y realice los siguientes paso
 Ejecute los siguientes comandos desde la carpeta raíz del proyecto para iniciar el servidor:
 ```
 $ export FLASK_APP=server.py
-$ flask run
+$ python server.py
  * Running on http://127.0.0.1:5000/
 ```
 
-A continuación ejecute desde la consola de comandos el script `weather.py` pasándole por parámetro la ciudad sobre la que obtener la predicción climatológica:
+A continuación, con el server activo, ejecute desde la consola de comandos el script `weather.py` pasándole por parámetro la ciudad sobre la que obtener la predicción climatológica:
 
 Ejemplo:
 ```
@@ -52,16 +52,12 @@ optional arguments:
 ### Pruebas en local:
 Iniciar server:
 
-![run server](https://lh3.googleusercontent.com/_DXMa8qU19SOCVN9WNx5rNyTWDFI53UDKR0481n5RQDCKwDPzEgP64Zf997-N9_rcBitZoEo2dUS)
+![run server](https://lh3.googleusercontent.com/DID45l-euCcPJt5Xi3mNnwvZIv0JXQLzQqIBqVIwn7dCHfigFaxdy-eWhEes5JuNZ2uS0a3bj1OH)
 
-Ejecución del script `weather.py`:
+Ejecución del script `weather.py`, seleccionar una ciudad no disponible entre las de prueba y obtener información del script:
 
-![run script](https://lh3.googleusercontent.com/Z9XhYi43eqaJrnonTeqp9M2m_XFD48K6Y3ALsE5Ah3kqDusJy-ux4tWFYiLkRhWq9x_iUWCRTy1q)
-
-Seleccionar una ciudad no disponible entre las de prueba y obtener información del script:
-
-![info script](https://lh3.googleusercontent.com/4j6cqyu7475a9-EI3x7OtS6a767Jnp53fUF_67gmyfAQP2WJmFcB2-ztBWU37fGqbJ89UJQMwFGv)
+![run script](https://lh3.googleusercontent.com/yfkp4ASD2wqDnigmWe9xZ82nGYjT-UWMHpCOjb7vX8N1dZuWWHRKnzZ7_mXVX4p17NJq9fEecO7m)
 
 Observar JSON recibido desde la ruta en el navegador:
 
-![json info](https://lh3.googleusercontent.com/8wKhtOWpJiiMhH6dUqFd4YvXbeIPwhnveT621VSGbSBWjTU_KZ2h40vGKt7RG-61KNbGT6PY9_8Y)
+![json info](https://lh3.googleusercontent.com/l9Fu2JT3A4VY1BH2BdY5e_dCIjkdDTFDtIE82in4sstAxx2DxwRLqmiANzPUC20Ri3wriWOq2nQf)

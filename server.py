@@ -4,8 +4,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/weather-forecast/<city>')
-def getWeatherInfo(city):
+@app.route('/<city>')
+def weather(city):
     # api-endpoint 
     api_endpoint = "http://api.openweathermap.org/data/2.5/weather"
 
@@ -18,5 +18,4 @@ def getWeatherInfo(city):
     # devolver resultados en formato JSON
     return r.json()
 
-if __name__ == '__main__':
-    app.run(debug=True)
+app.run(host=config.host, port=config.port, debug=True)

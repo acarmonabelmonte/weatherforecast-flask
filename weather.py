@@ -1,10 +1,11 @@
+import config
 import requests
 import argparse
 
 parser = argparse.ArgumentParser()
 
 # Ciudades de ejemplo
-cities = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Palma', 'Murcia']
+cities = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Murcia']
 
 # Inputs para el script
 parser.add_argument('--city', help='Ciudad a obtener el tiempo. Por favor, seleccione entre las siguientes opciones: ' +
@@ -16,10 +17,10 @@ args = parser.parse_args()
 city = args.city
 if city.capitalize() in cities:
     # API-endpoint
-    api_endpoint = "http://127.0.0.1:5000/weather-forecast/"
+    api_endpoint = "http://" + config.host + ":" + str(config.port)
 
     # URL
-    url = api_endpoint + city
+    url = api_endpoint + "/" + city
 
     # Realizar solicitud GET sobre la url pasada
     r = (requests.get(url)).json()

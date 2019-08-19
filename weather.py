@@ -1,11 +1,11 @@
 import config
+# módulo para realizar peticiones HTTP 
 import requests
+# módulo de análisis de línea de comandos
 import argparse
 
 parser = argparse.ArgumentParser()
-
-# Ciudades de ejemplo
-cities = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Murcia']
+cities = config.cities
 
 # Inputs para el script
 parser.add_argument('--city', help='Ciudad a obtener el tiempo. Por favor, seleccione entre las siguientes opciones: ' +

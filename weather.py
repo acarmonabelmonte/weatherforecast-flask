@@ -17,7 +17,7 @@ args = parser.parse_args()
 city = args.city
 if city.capitalize() in cities:
     # API-endpoint
-    api_endpoint = "http://" + config.host + ":" + str(config.port)
+    api_endpoint = "http://" + str(config.host) + ":" + str(config.port)
 
     # URL
     url = api_endpoint + "/" + city

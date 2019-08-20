@@ -1,4 +1,4 @@
-# Weather Forecast with Python and Flask
+# Simple Weather Forecast with Python and Flask
 Servidor de pronóstico del tiempo y un cliente de línea de comandos creados con Python y su framework Flask.
 El servidor se conecta a la siguiente api externa para obtener la información climatológica.
 Weather API from OpenWeather: [https://openweathermap.org/api](https://openweathermap.org/api)
